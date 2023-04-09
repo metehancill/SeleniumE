@@ -6,10 +6,8 @@ import org.openqa.selenium.By;
 
 public class HomePage {
 
-    Methods methods;
-    public HomePage (){
-        methods= new Methods();
-    }
+    Methods methods = new Methods();
+ 
 
     public void home(){
         methods.waitBySeconds(3);

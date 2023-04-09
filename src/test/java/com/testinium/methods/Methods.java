@@ -38,6 +38,10 @@ public class Methods {
         findElement(by).click();
     }
 
+    public void waitClick(By by){
+        findElement(by).click();
+    }
+
 
     public void waitBySeconds(long seconds) {
         try {
